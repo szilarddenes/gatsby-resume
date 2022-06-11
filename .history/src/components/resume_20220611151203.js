@@ -22,7 +22,7 @@ const Resume = ({ resume }) => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>🍋{basics.name}</title>
+        <title><TitleSvg/> {basics.name}</title>
         <meta name="description" content={`resume for ${basics.name}`} />
         <link
           rel="stylesheet"

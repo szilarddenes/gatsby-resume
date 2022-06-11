@@ -13,7 +13,7 @@ import Skills from './skills';
 import Languages from './languages';
 import Interests from './interests';
 import References from './references';
-// import TitleSvg from '../img/title.svg';
+import TitleSvg from '../img/title.svg';
 
 // console.log('@@ styles:', styles);
 
@@ -22,7 +22,7 @@ const Resume = ({ resume }) => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>🍋{basics.name}</title>
+        <title><TitileSvg/> {basics.name}</title>
         <meta name="description" content={`resume for ${basics.name}`} />
         <link
           rel="stylesheet"

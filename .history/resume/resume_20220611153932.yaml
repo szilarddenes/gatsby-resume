@@ -2,7 +2,7 @@
 basics:
   name: Szilárd Dénes
   label: Geologist / Programmer
-  image: ../src/img/title.svg
+  image: '../src/img/title.svg'
   email: solid.garden.dev@gmail.com
   phone: '(+36) 30 813 4832'
   url: https://jointadventure.co
@@ -16,12 +16,12 @@ basics:
     countryCode: HU
     region: Pest
   profiles:
-    - network: GitHub
-      username: szilarddenes
-      url: https://github.com/users/szilarddenes
-    - network: LinkedIn
-      username: szilárd dénes
-      url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
+    - network: Twitter
+      username: neutralthoughts
+      url: ''
+    - network: SoundCloud
+      username: dandymusicnl
+      url: https://soundcloud.example.com/dandymusicnl
 work:
   - name: Pied Piper
     location: Palo Alto, CA

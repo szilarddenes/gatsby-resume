@@ -2,7 +2,7 @@
 basics:
   name: Szilárd Dénes
   label: Geologist / Programmer
-  image: ../src/img/title.svg
+  image: '../src/img/title.svg'
   email: solid.garden.dev@gmail.com
   phone: '(+36) 30 813 4832'
   url: https://jointadventure.co
@@ -10,18 +10,18 @@ basics:
     Detail oriented geologist, with multi-disciplinary  approach to exploration from basin scale (PSA)  to interpretation (prospects and leads). Excellent  data integration, including wells, seismic and  geochemistry. Interested in problem solving and workflow optimization at any level.
 
   location:
-    address: 1137 Broadway St
-    postalCode: 1137
-    city: Budapest
-    countryCode: HU
-    region: Pest
+    address: 113 Broadway St
+    postalCode: CA 94115
+    city: San Francisco
+    countryCode: US
+    region: California
   profiles:
-    - network: GitHub
-      username: szilarddenes
-      url: https://github.com/users/szilarddenes
-    - network: LinkedIn
-      username: szilárd dénes
-      url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
+    - network: Twitter
+      username: neutralthoughts
+      url: ''
+    - network: SoundCloud
+      username: dandymusicnl
+      url: https://soundcloud.example.com/dandymusicnl
 work:
   - name: Pied Piper
     location: Palo Alto, CA
