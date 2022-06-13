@@ -65,17 +65,15 @@ blockquote {
 	font-size: 14px;
 }
 em {
-	color: var(--green);
+	color: var(--orange);
 	font-weight: normal;
 	font-style: normal;
 }
 h4 span:first-child {
-	color: var(--green);
+	color: var(--orange);
 	font-weight: bold;
 }
-strong{
-	color: var(--green);
-}
+strong
 .container {
 	max-width: 750px;
 	padding: 0 30px;

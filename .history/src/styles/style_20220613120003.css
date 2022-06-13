@@ -20,7 +20,7 @@ body {
 	margin: 0 0 80px;
 }
 a {
-	color: var(--teal);
+	color: var(--green);
 }
 a:focus,
 a:hover {
@@ -65,16 +65,16 @@ blockquote {
 	font-size: 14px;
 }
 em {
-	color: var(--green);
+	color: var(--teal);
 	font-weight: normal;
 	font-style: normal;
 }
 h4 span:first-child {
-	color: var(--green);
+	color: var(--teal);
 	font-weight: bold;
 }
 strong{
-	color: var(--green);
+	color: var(--teal);
 }
 .container {
 	max-width: 750px;

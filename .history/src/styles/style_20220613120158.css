@@ -20,7 +20,7 @@ body {
 	margin: 0 0 80px;
 }
 a {
-	color: var(--teal);
+	color: var(--green);
 }
 a:focus,
 a:hover {
