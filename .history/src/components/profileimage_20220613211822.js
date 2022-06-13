@@ -12,7 +12,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 export default function ProfileImage() {
   return (
     <StaticImage
-      src="../img/profile.jpg"
+      src="src/img/profile.jpg"
       width={300}
       height={300}
       quality={95}

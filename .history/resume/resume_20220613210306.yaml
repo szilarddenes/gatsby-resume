@@ -60,17 +60,7 @@ work:
     startDate: '2014-07'
     endDate: '2014-08'
     summary:
-      technical work and support for a micropaleontologycal study
-
-  - name: SC Geosearch SRL
-    location: Cluj-Napoca, RO
-    description: Awesome compression company
-    position: Field Geologist
-    url: https://geosearch.ro/en/home/
-    startDate: '2014-04'
-    endDate: '2014-07'
-    summary:
-      geotechnical drilling/surveying
+      VES (Vertical Electric Surveying ) study in NW Romania
 volunteer:
   - organization: CoderDojo
     position: Teacher

@@ -51,26 +51,15 @@ work:
     endDate: '2015-06'
     summary:
       VES (Vertical Electric Surveying ) study in NW Romania
-
-  - name: Szekler Resources LTD
-    location: Sfântu-Gheorge, RO
-    description: Awesome compression company
-    position: Geologist
-    url: https://szekler-resources.ro/
-    startDate: '2014-07'
-    endDate: '2014-08'
-    summary:
-      technical work and support for a micropaleontologycal study
-
-  - name: SC Geosearch SRL
-    location: Cluj-Napoca, RO
+  - name: Geogold Kárpátia Kft
+    location: Budapest, HU
     description: Awesome compression company
     position: Field Geologist
-    url: https://geosearch.ro/en/home/
-    startDate: '2014-04'
-    endDate: '2014-07'
+    url: https://geogold.eu/en/home/
+    startDate: '2015-05'
+    endDate: '2015-06'
     summary:
-      geotechnical drilling/surveying
+      VES (Vertical Electric Surveying ) study in NW Romania
 volunteer:
   - organization: CoderDojo
     position: Teacher

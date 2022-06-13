@@ -66,11 +66,11 @@ work:
     location: Cluj-Napoca, RO
     description: Awesome compression company
     position: Field Geologist
-    url: https://geosearch.ro/en/home/
-    startDate: '2014-04'
-    endDate: '2014-07'
+    url: https://szekler-resources.ro/
+    startDate: '2014-07'
+    endDate: '2014-08'
     summary:
-      geotechnical drilling/surveying
+      technical work and support for a micropaleontologycal study
 volunteer:
   - organization: CoderDojo
     position: Teacher

@@ -27,7 +27,7 @@ work:
     location: Budapest, HU
     description: Awesome compression company
     position: Exploration Geologist
-    url: http://shpbv.eu
+    url: http://piedpiper.example.com
     startDate: '2015-07'
     endDate:
     summary:
@@ -36,41 +36,28 @@ work:
       - independetly generated and worked up to prospect level a lead inventory (AVO  prospects) on a new 3D – and presented in a series of Peer Reviews
       - handled levels of responsibilities far beyond my experience level
       - seismic interpretation, prospect and lead generation plus basic geophysical work  on Hungarian and Romanian assets in team
-      - completing Petroleum System Analysis (PSA) projects for the OGD's focus areas
-      - involved in Romanian data rooms and License Round evaluations
+      - completing Petroleum System Analysis (PSA) projects for the OGD’s focus areas
+involved in Romanian data rooms and License Round evaluations
       - HC migration modelling to address the migration risk in our prospect evaluation  process
-      - data mining, various geodatabase building (excel VBA scripting and ArcGIS)
+data mining, various geodatabase building (excel VBA scripting and ArcGIS)-
 
 
-  - name: Geogold Kárpátia Kft
-    location: Budapest, HU
+  - name: Pied Piper
+    location: Palo Alto, CA
     description: Awesome compression company
-    position: Field Geologist
-    url: https://geogold.eu/en/home/
-    startDate: '2015-05'
-    endDate: '2015-06'
+    position: CEO/President
+    url: http://piedpiper.example.com
+    startDate: '2013-12-01'
+    endDate: '2014-12-01'
     summary:
-      VES (Vertical Electric Surveying ) study in NW Romania
-
-  - name: Szekler Resources LTD
-    location: Sfântu-Gheorge, RO
-    description: Awesome compression company
-    position: Geologist
-    url: https://szekler-resources.ro/
-    startDate: '2014-07'
-    endDate: '2014-08'
-    summary:
-      technical work and support for a micropaleontologycal study
-
-  - name: SC Geosearch SRL
-    location: Cluj-Napoca, RO
-    description: Awesome compression company
-    position: Field Geologist
-    url: https://geosearch.ro/en/home/
-    startDate: '2014-04'
-    endDate: '2014-07'
-    summary:
-      geotechnical drilling/surveying
+      Pied Piper is a multi-platform technology based on a proprietary universal
+      compression algorithm that has consistently fielded high Weisman Scores™ that
+      are not merely competitive, but approach the theoretical limit of lossless compression.
+    highlights:
+      - Build an algorithm for artist to detect if their music was violating copy right
+        infringement laws
+      - Successfully won Techcrunch Disrupt
+      - Optimized an algorithm that holds the current world record for Weisman Scores
 volunteer:
   - organization: CoderDojo
     position: Teacher
