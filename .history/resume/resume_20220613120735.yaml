@@ -23,22 +23,6 @@ basics:
       username: szilárd dénes
       url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
 work:
-  - name: O&GD Development Kft
-    location: Budapest, HU
-    description: Awesome compression company
-    position: Exploration Geologist
-    url: http://piedpiper.example.com
-    startDate: '2015-07'
-    endDate:
-    summary:
-      Pied Piper is a multi-platform technology based on a proprietary universal
-      compression algorithm that has consistently fielded high Weisman Scores™ that
-      are not merely competitive, but approach the theoretical limit of lossless compression.
-    highlights:
-      - Build an algorithm for artist to detect if their music was violating copy right
-        infringement laws
-      - Successfully won Techcrunch Disrupt
-      - Optimized an algorithm that holds the current world record for Weisman Scores
   - name: Pied Piper
     location: Palo Alto, CA
     description: Awesome compression company
@@ -55,6 +39,7 @@ work:
         infringement laws
       - Successfully won Techcrunch Disrupt
       - Optimized an algorithm that holds the current world record for Weisman Scores
+      
 volunteer:
   - organization: CoderDojo
     position: Teacher

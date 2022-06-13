@@ -29,7 +29,7 @@ work:
     position: Exploration Geologist
     url: http://piedpiper.example.com
     startDate: '2015-07'
-    endDate:
+    endDate: .date
     summary:
       Pied Piper is a multi-platform technology based on a proprietary universal
       compression algorithm that has consistently fielded high Weisman Scores™ that

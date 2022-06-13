@@ -23,13 +23,13 @@ basics:
       username: szilárd dénes
       url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
 work:
-  - name: O&GD Development Kft
+  - name: Exploration Geologist
     location: Budapest, HU
     description: Awesome compression company
-    position: Exploration Geologist
+    position: CEO/President
     url: http://piedpiper.example.com
-    startDate: '2015-07'
-    endDate:
+    startDate: '2013-12-01'
+    endDate: '2014-12-01'
     summary:
       Pied Piper is a multi-platform technology based on a proprietary universal
       compression algorithm that has consistently fielded high Weisman Scores™ that
