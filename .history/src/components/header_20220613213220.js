@@ -1,5 +1,4 @@
 import React from 'react'
-import ProfileImage from './profileimage.js'
 
 const Header = ({ basics }) => (
   <header id='header'>

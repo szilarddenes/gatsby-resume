@@ -15,7 +15,7 @@ import Interests from './interests'
 import References from './references'
 import ProfileImage from './profileimage'
 
-import TitleSvg from '../img/sdicon.svg'
+// import TitleSvg from '../img/title.svg';
 
 // console.log('@@ styles:', styles);
 
@@ -41,7 +41,6 @@ const Resume = ({ resume }) => {
           rel='stylesheet'
           href='https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css'
         />
-        <link rel='icon' type='image/png' href={TitleSvg} />
       </Helmet>
       <Header basics={basics} />
       <div id='content' className='container'>

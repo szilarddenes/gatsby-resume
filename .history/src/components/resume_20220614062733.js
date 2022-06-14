@@ -15,7 +15,7 @@ import Interests from './interests'
 import References from './references'
 import ProfileImage from './profileimage'
 
-import TitleSvg from '../img/sdicon.svg'
+import TitleSvg from '../img/sdicon.svg';
 
 // console.log('@@ styles:', styles);
 
@@ -35,13 +35,15 @@ const Resume = ({ resume }) => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>{basics.name}</title>
+        <title>
+          {basics.name}
+        </title>
         <meta name='description' content={`resume for ${basics.name}`} />
         <link
           rel='stylesheet'
           href='https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css'
         />
-        <link rel='icon' type='image/png' href={TitleSvg} />
+        <link rel= "icon", type: "image/png", href: `${TitleSvg}`}]} />
       </Helmet>
       <Header basics={basics} />
       <div id='content' className='container'>

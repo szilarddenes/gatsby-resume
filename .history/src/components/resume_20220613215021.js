@@ -15,7 +15,7 @@ import Interests from './interests'
 import References from './references'
 import ProfileImage from './profileimage'
 
-import TitleSvg from '../img/sdicon.svg'
+// import TitleSvg from '../img/title.svg';
 
 // console.log('@@ styles:', styles);
 
@@ -35,13 +35,29 @@ const Resume = ({ resume }) => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>{basics.name}</title>
+        <title>
+          {/* <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='64'
+            height='64'
+            fill='none'
+            viewBox='0 0 64 64'>
+            <circle
+              cx='32'
+              cy='32'
+              r='29.5'
+              fill='#fbc318'
+              stroke='#000'
+              stroke-width='3'
+            />
+          </svg> */}
+          {basics.name}
+        </title>
         <meta name='description' content={`resume for ${basics.name}`} />
         <link
           rel='stylesheet'
           href='https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css'
         />
-        <link rel='icon' type='image/png' href={TitleSvg} />
       </Helmet>
       <Header basics={basics} />
       <div id='content' className='container'>
