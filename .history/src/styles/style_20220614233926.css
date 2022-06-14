@@ -209,7 +209,7 @@ strong{
 		right: 0;
 	}
 }
-@media (max-width: 650px) {
+@media (max-width: 530px) {
 	.col-sm-6:last-child {
 		margin-bottom: 0px;
 	}

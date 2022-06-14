@@ -256,7 +256,7 @@ strong{
 	}
 }
 
-@media (min-maxwidth: 700px){
+@media (min-width: 700px){
 .col-sm {
   flex-basis: 1;
   flex-grow: 1;

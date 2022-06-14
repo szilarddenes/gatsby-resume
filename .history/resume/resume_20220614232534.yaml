@@ -114,7 +114,7 @@ trainings:
     startDate: '2019-05-29'
     endDate: '2019-06-02'
     heldBy: Henry S. Pettingill
-  - title: CGG GeoSoftware 
+  - title: CGG GeoSoftware Academy
     summary: HampsonRussell AVO Virtual Training
     location: Budapest, Hungary
     startDate: '2019-05-01'
@@ -138,13 +138,13 @@ trainings:
     startDate: '2017-10-16'
     endDate: '2017-10-20'
     heldBy: UTANANEZNI
-  - title: AAPG ELTE 
+  - title: AAPG ELTE University
     summary: Basin Modelling & Calibration with PetroMod
     location: Budapest, Hungary
     startDate: '2017-10-16'
     endDate: '2017-10-20'
     heldBy: Bartha Attila
-  - title: AAPG ELTE 
+  - title: AAPG ELTE University
     summary: Basin Modelling with PetroMod
     location: Budapest, Hungary
     startDate: '2017-04-18'
