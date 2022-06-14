@@ -123,8 +123,21 @@ strong{
 	font: 16px Octicons;
 	margin-right: 6px;
 }
+#education .thesis {
+	margin-top: 8px;
+	font-weight: bold;
+}
+#education .thesis:before {
+	content: "\f0c5";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
 #education .studyType {
 	margin-left: 25px;
+}
+#education .thesis > span{
+	color:var(--teal);
+	font-size: 16px;
 }
 #awards .summary,
 #publications .summary {

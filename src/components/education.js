@@ -1,4 +1,6 @@
 import React from 'react';
+import downloadFileBsc from '../downloads/BSc Thesis SD-Simonesti.pdf'
+import downloadFileMsc from '../downloads/MSc Thesis SD-Jaszsag.pdf'
 
 const Education = ({ educations }) => (
 	<section id="education" className="row">
@@ -21,12 +23,14 @@ const Education = ({ educations }) => (
           <div className="studyType">
             {education.studyType}
           </div>
-          <h4>Courses</h4>
+          <div className="thesis">Thesis  </div>
+          <a href={education.studyType == 'BSc' ? downloadFileBsc : downloadFileMsc} target="_blank">{education.thesis}</a>
+          {/* <h4>Courses</h4>
           {education.courses.map(course => (
             <ul className="courses">
               <li>{course}</li>
             </ul>
-          ))}
+          ))} */}
         </div>
       ))}
 			</div>

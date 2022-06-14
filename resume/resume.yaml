@@ -46,11 +46,11 @@ work:
     location: Budapest, HU
     description: Awesome compression company
     position: Field Geologist
-    url: https://geogold.eu/en/home/
+    url: https://geogold.eu
     startDate: '2015-05'
     endDate: '2015-06'
     summary:
-      VES (Vertical Electric Surveying ) study in NW Romania
+      Field work -> VES (Vertical Electric Surveying ) study in NW Romania.
 
   - name: Szekler Resources LTD
     location: Sfântu-Gheorge, RO
@@ -60,17 +60,17 @@ work:
     startDate: '2014-07'
     endDate: '2014-08'
     summary:
-      technical work and support for a micropaleontologycal study
+      Technical work and support for a micropaleontologycal study.
 
   - name: SC Geosearch SRL
     location: Cluj-Napoca, RO
     description: Awesome compression company
     position: Field Geologist
-    url: https://geosearch.ro/en/home/
+    url: https://geosearch.ro
     startDate: '2014-04'
     endDate: '2014-07'
     summary:
-      geotechnical drilling/surveying
+      Field work -> geotechnical drilling/surveying.
 volunteer:
   - organization: CoderDojo
     position: Teacher
@@ -81,15 +81,26 @@ volunteer:
     highlights:
       - Awarded 'Teacher of the Month'
 education:
-  - institution: University of Oklahoma
-    area: Information Technology
-    studyType: Bachelor
-    startDate: '2011-06-01'
-    endDate: '2014-01-01'
+  - institution: Babeș-Bolyai University
+    area: Department of Geology
+    studyType: BSc
+    startDate: '2009-09'
+    endDate: '2013-07'
     gpa: '4.0'
+    thesis: 3D modelling of Simonesti gas field, based on sequence stratigraphy
     courses:
       - DB1101 - Basic SQL
       - CS2011 - Java Introduction
+  - institution: Babeș-Bolyai University
+    area: Geology of Sedimentary Basins
+    studyType: MSc
+    startDate: '2013-09'
+    endDate: '2016-07'
+    gpa: '4.0'
+    thesis: An approach on HC migration modelling for the Jászság-basin, Hungary
+    courses: 
+      - n/a
+   
 awards:
   - title: Digital Compression Pioneer Award
     date: '2014-11-01'

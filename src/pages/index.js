@@ -51,6 +51,7 @@ export const query = graphql`
         courses
         endDate(formatString: "MMM, YYYY")
         gpa
+        thesis
         institution
         startDate(formatString: "MMM, YYYY")
         studyType
