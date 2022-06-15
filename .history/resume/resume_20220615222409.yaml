@@ -4,7 +4,7 @@ basics:
   label: Geologist / Keen Developer
   imagesd:
     - /src/img/profile.jpg
-  email: szilard@solid.garden
+  email: solid.garden.dev@gmail.com
   phone: '(+36) 30 813 4832'
   url: https://jointadventure.co
   summary: writing now...
@@ -253,12 +253,12 @@ references:
       consultant for Main St. Company proved that he will be a valuable addition to
       any company.
 projects:
-  - name: VBA PDF Generator 
-    description: built a VBA based Excel program which generates documents with a given database and different PDF templates. My first sold work.
+  - name: Excel VBA PDF Generator Program
+    description: built a VBA based program which generates
     highlights:
-      - form validation and error handling
-      - progress bar
-      - speed enhancements
+      - Won award at AIHacks 2016
+      - Built by all women team of newbie programmers
+      - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
     keywords:
       - GoogleMaps
       - Chrome Extension
