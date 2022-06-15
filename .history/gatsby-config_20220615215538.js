@@ -15,8 +15,8 @@ module.exports = {
       options: {
         defaults: {
           formats: [`auto`, `webp`, `png`, `jpg`],
-          // placeholder: `none`,
-          backgroundColor: `#12141a`,
+          placeholder: `none`,
+          backgroundColor: `white`,
           tracedSVGOptions: {},
           blurredOptions: {},
           jpgOptions: {},

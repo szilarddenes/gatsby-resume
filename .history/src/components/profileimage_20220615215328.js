@@ -15,7 +15,7 @@ export default function ProfileImage() {
       src="../img/profile_circle.png"
       width={200}
       height={200}
-      quality={100}
+      quality={10}
       alt='profile image sd'
       loading='eager'
     />
