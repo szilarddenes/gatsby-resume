@@ -12,12 +12,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 export default function ProfileImage() {
   return (
     <StaticImage
-      src="../img/profile_circle.png"
+      src="../img/profile_circle.jpg"
       width={200}
       height={200}
       quality={100}
       alt='profile image sd'
-      loading='lazy'
+      loading='eager'
     />
   )
 }

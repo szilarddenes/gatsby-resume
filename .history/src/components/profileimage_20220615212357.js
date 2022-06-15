@@ -17,7 +17,7 @@ export default function ProfileImage() {
       height={200}
       quality={100}
       alt='profile image sd'
-      loading='lazy'
+      loading='eager'
     />
   )
 }
