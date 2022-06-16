@@ -32,13 +32,13 @@ work:
     endDate:
     summary: Detail oriented geology work, with multi-disciplinary  approach to exploration from basin scale (PSA)  to interpretation (prospects and leads). High level  data integration, including wells, seismic and  geochemistry. Everyday problem solving and workflow optimization at any level (geology, data, software).
     highlights:
-      - Independently generated and worked up to prospect level a lead inventory (AVO  prospects) on a new 3D – and presented in a series of Peer Reviews
-      - Handled levels of responsibilities far beyond my experience level
-      - Seismic interpretation, prospect and lead generation plus basic geophysical work  on Hungarian and Romanian assets in team
-      - Completing Petroleum System Analysis (PSA) projects for the OGD's focus areas
-      - Involved in Romanian data rooms and License Round evaluations
+      - independently generated and worked up to prospect level a lead inventory (AVO  prospects) on a new 3D – and presented in a series of Peer Reviews
+      - handled levels of responsibilities far beyond my experience level
+      - seismic interpretation, prospect and lead generation plus basic geophysical work  on Hungarian and Romanian assets in team
+      - completing Petroleum System Analysis (PSA) projects for the OGD's focus areas
+      - involved in Romanian data rooms and License Round evaluations
       - HC migration modelling to address the migration risk in our prospect evaluation  process
-      - Data mining, various geodatabase building (excel VBA scripting and ArcGIS)
+      - data mining, various geodatabase building (excel VBA scripting and ArcGIS)
 
   - name: Geogold Kárpátia Kft
     location: Budapest, HU
@@ -179,19 +179,19 @@ skills:
       - Javascript
       - VBA
       - GitHub
-      - cPanel
-
   - name: Web Development
-    level: worked with
+    level: have used
     keywords:
       - Linux
       - Nginx
       - AWS
+      - cPanel
   - name: Software Skills
     level: high level
     keywords:
       - IHS Kingdom
       - Zetaware - Trinity 3D, Genesis PSA tools
+      - Migri – HC migration modelling
       - Schlumberger Petromod
       - MS Office Apps - Excel, Access, Power Point
       - ArcGIS
@@ -200,7 +200,6 @@ skills:
   - name: Software Skills
     level: project based work
     keywords:
-      - Migri – HC migration modelling
       - AutoCad
       - Schlumberger Petrel
       - REP – Resource Evaluation Program
@@ -226,17 +225,17 @@ languages:
 interests:
   - name: Worldview
     keywords:
-      - Sustainability
-      - Environmental awareness
+      - sustainability
+      - environmental awareness
   - name: Sport
     keywords:
-      - Running
-      - Body weight trainings
+      - running
+      - body weight trainings
   - name: Workshop
     keywords:
-      - Welding
+      - welding
       - DIY around house
-      - Fixing electronics
+      - fixing electronics
 references:
   - name: Martin P. Olsen
     reference: I've worked with Szilard for 6 years at O&G Development.  He wore many hats there and was very quick to climb learning curves -- even when the subject was complex.
