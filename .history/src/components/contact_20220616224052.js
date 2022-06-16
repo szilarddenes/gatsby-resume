@@ -20,7 +20,7 @@ const Contact = ({ basics }) => (
           <div className='website'>
             <a href={basics.url} target="_blank" >{basics.url}</a> 
           </div>
-          <small> [temporary, while building the main https://solid.garden] </small>
+          <small> [ temporary, while building the main https://solid.garden] </small>
         </div>
       </div>
     </div>
