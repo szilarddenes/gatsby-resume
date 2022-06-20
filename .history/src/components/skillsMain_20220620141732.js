@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillsMain = ({ skillsMain }) => (
 
-
+  
   <section id='skills' className='row'>
     <aside className='col-sm-3'>
       <h3>Skills</h3>
@@ -38,8 +38,6 @@ const SkillsMain = ({ skillsMain }) => (
       </div>
     </div>
   </section>
-
-  
 )
 
 export default SkillsMain
