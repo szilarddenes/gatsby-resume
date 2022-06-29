@@ -34,14 +34,14 @@ work:
     url: http://shpbv.eu
     startDate: '2015-07'
     endDate:
-    summary: Detail-oriented geology work, with multidisciplinary  approach to exploration from basin scale (PSA - Petroleum System Analysis)  to seismic interpretation and prospect generation. High-level  data integration, including wells, seismic and  geochemistry. Everyday problem solving and workflow optimization at any level (geology, data, software).
+    summary: Detail oriented geology work, with multi-disciplinary  approach to exploration from basin scale (PSA)  to interpretation (prospects and leads). High level  data integration, including wells, seismic and  geochemistry. Everyday problem solving and workflow optimization at any level (geology, data, software).
     highlights:
-      - Independently generated an inventory prospects, with several advanced to peer review stage and subsequent approval for drilling.
+      - Independently generated and worked up to prospect level a lead inventory (AVO  prospects) on a new 3D – and presented in a series of Peer Reviews
       - Handled levels of responsibilities far beyond my experience level
       - Seismic interpretation, prospect and lead generation plus basic geophysical work  on Hungarian and Romanian assets in team
       - Completing Petroleum System Analysis (PSA) projects for the OGD's focus areas
-      - Involved in international data rooms and License Round evaluations
-      - Hydrocarbon migration modelling to address the migration risk in the prospect evaluation  process
+      - Involved in Romanian data rooms and License Round evaluations
+      - HC migration modelling to address the migration risk in our prospect evaluation  process
       - Data mining, various geodatabase building (excel VBA scripting and ArcGIS)
 
   - name: Geogold Kárpátia Kft
@@ -250,7 +250,7 @@ references:
     link: 'https://www.linkedin.com/in/stephen-anfort-b5b4139'
 projects:
   - name: VBA PDF generator
-    description: Built a VBA-based Excel program which generates documents with a given database and different PDF templates. This is capable of generating hundreds of PDFs, thus saving many man-hours. This was my first software sale.
+    description: Built a VBA-based Excel program which generates documents with a given database and different PDF templates. This is capable of generating hundreds of PDFs in minutes, saves the work of many employees through weeks. My first software sold.
     highlights:
       - Form validation and error handling
       - Progress bar
@@ -261,7 +261,7 @@ projects:
     highlights:
     url: ''
   - name: Odoo ERP integration for a company
-    description: Transferring a company's data, projects and workflows from excel files and folders into the Odoo ERP (Enterprise Resource Planning) system.
+    description: Transferring a company's data, projects and workflows from excels and folders into the Odoo ERP.
     highlights:
       - Email to lead integration
       - Writing workflow automatizations and data validations in Python

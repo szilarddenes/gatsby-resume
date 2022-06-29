@@ -27,7 +27,7 @@ basics:
       username: szilárd dénes
       url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
 work:
-  - name: O&GD Development Kft
+  - name: O&GD Development Kft 
     location: Budapest, HU
     description: Awesome compression company
     position: Exploration Geologist
@@ -36,12 +36,12 @@ work:
     endDate:
     summary: Detail-oriented geology work, with multidisciplinary  approach to exploration from basin scale (PSA - Petroleum System Analysis)  to seismic interpretation and prospect generation. High-level  data integration, including wells, seismic and  geochemistry. Everyday problem solving and workflow optimization at any level (geology, data, software).
     highlights:
-      - Independently generated an inventory prospects, with several advanced to peer review stage and subsequent approval for drilling.
+      - Independently generated and worked up to prospect level a lead inventory (AVO  prospects) on a new 3D – and presented in a series of Peer Reviews
       - Handled levels of responsibilities far beyond my experience level
       - Seismic interpretation, prospect and lead generation plus basic geophysical work  on Hungarian and Romanian assets in team
       - Completing Petroleum System Analysis (PSA) projects for the OGD's focus areas
-      - Involved in international data rooms and License Round evaluations
-      - Hydrocarbon migration modelling to address the migration risk in the prospect evaluation  process
+      - Involved in Romanian data rooms and License Round evaluations
+      - HC migration modelling to address the migration risk in our prospect evaluation  process
       - Data mining, various geodatabase building (excel VBA scripting and ArcGIS)
 
   - name: Geogold Kárpátia Kft

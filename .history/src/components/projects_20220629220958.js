@@ -22,7 +22,7 @@ const Project = ({ projects }) => (
             </div>
             {project.highlights && (
               <React.Fragment>
-                <hr />
+                
                 <h6>Highlights:</h6>
                 <ul className='highlights'>
                   {project.highlights.map((highlight) => (
