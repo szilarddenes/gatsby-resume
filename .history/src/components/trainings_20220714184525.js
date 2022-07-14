@@ -10,6 +10,7 @@ const Trainings = ({ trainings }) => (
         {trainings.map((training) => (
           <div className='col-sm-12'>
             <h4 className='strike-through'>
+            <p>{training.summary}</p>
               <span>{training.title}</span>
               <span className='date'>
                 {training.startDate} —{' '}
@@ -20,7 +21,6 @@ const Trainings = ({ trainings }) => (
             <div className='website pull-right'>{training.location}</div>
             <div className='position'>held by: {training.heldBy}</div>
             </div>
-            <li className="paddingLeft">{training.summary}</li>
           </div>
         ))}
       </div>

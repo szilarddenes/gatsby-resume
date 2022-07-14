@@ -18,9 +18,9 @@ const Trainings = ({ trainings }) => (
             </h4>
             <div className="flexSpan">
             <div className='website pull-right'>{training.location}</div>
+            <p>{training.summary}</p>
             <div className='position'>held by: {training.heldBy}</div>
             </div>
-            <li className="paddingLeft">{training.summary}</li>
           </div>
         ))}
       </div>

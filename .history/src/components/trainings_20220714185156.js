@@ -20,7 +20,7 @@ const Trainings = ({ trainings }) => (
             <div className='website pull-right'>{training.location}</div>
             <div className='position'>held by: {training.heldBy}</div>
             </div>
-            <li className="paddingLeft">{training.summary}</li>
+            <li className="padding">{training.summary}</li>
           </div>
         ))}
       </div>

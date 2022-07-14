@@ -19,8 +19,8 @@ const Trainings = ({ trainings }) => (
             <div className="flexSpan">
             <div className='website pull-right'>{training.location}</div>
             <div className='position'>held by: {training.heldBy}</div>
+            <p>{training.summary}</p>
             </div>
-            <li className="paddingLeft">{training.summary}</li>
           </div>
         ))}
       </div>

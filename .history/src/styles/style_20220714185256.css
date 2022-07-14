@@ -73,9 +73,8 @@ li:before {
 	position: absolute;
 	color: var(--yellow)
 }
-.paddingLeft{
-position:relative;
-padding-left:25px;
+paddingLeft{
+	
 }
 blockquote {
 	border-left: 4px solid var(--green);

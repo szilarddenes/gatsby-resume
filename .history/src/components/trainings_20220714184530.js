@@ -11,6 +11,7 @@ const Trainings = ({ trainings }) => (
           <div className='col-sm-12'>
             <h4 className='strike-through'>
               <span>{training.title}</span>
+            <p>{training.summary}</p>
               <span className='date'>
                 {training.startDate} —{' '}
                 {!!training.endDate ? training.endDate : `present`}
@@ -20,7 +21,6 @@ const Trainings = ({ trainings }) => (
             <div className='website pull-right'>{training.location}</div>
             <div className='position'>held by: {training.heldBy}</div>
             </div>
-            <li className="paddingLeft">{training.summary}</li>
           </div>
         ))}
       </div>

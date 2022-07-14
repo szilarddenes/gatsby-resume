@@ -73,7 +73,7 @@ li:before {
 	position: absolute;
 	color: var(--yellow)
 }
-.paddingLeft{
+li .paddingLeft{
 position:relative;
 padding-left:25px;
 }
