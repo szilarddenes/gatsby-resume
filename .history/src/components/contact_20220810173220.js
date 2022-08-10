@@ -12,15 +12,15 @@ const Contact = ({ basics }) => (
           <div className='email'>{basics.email}</div>
         </div>
         <div className='col-sm-6'>
-          <strong>Phone</strong>
-          <div className='phone'>{basics.phone}</div>
+          <strong>Location</strong>
+          <div className='phone'>Remote (</div>
         </div>
         <div className='col-sm-6'>
           <strong>Website</strong>
           <div className='website'>
             <a href={basics.url} target="_blank" >{basics.url}</a> 
           </div>
-          <small> [temporary while building the main https://solid.garden] </small>
+          <small> [temporary, while building the main https://solid.garden] </small>
         </div>
       </div>
     </div>

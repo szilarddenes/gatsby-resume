@@ -12,8 +12,8 @@ const Contact = ({ basics }) => (
           <div className='email'>{basics.email}</div>
         </div>
         <div className='col-sm-6'>
-          <strong>Phone</strong>
-          <div className='phone'>{basics.phone}</div>
+          <strong>Location</strong>
+          <div className='phone'>Remote (living in Hungary)</div>
         </div>
         <div className='col-sm-6'>
           <strong>Website</strong>

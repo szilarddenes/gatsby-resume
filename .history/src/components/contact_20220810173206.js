@@ -1,5 +1,4 @@
 import React from 'react'
-import { StaticImage } from 'gatsby-plugin-image'
 
 const Contact = ({ basics }) => (
   <section id='contact' className='row'>
@@ -13,23 +12,19 @@ const Contact = ({ basics }) => (
           <div className='email'>{basics.email}</div>
         </div>
         <div className='col-sm-6'>
-          <strong>Phone</strong>
+          <strong>Location</strong>
           <div className='phone'>{basics.phone}</div>
         </div>
         <div className='col-sm-6'>
           <strong>Website</strong>
           <div className='website'>
-            <a href={basics.url}>{basics.url}</a>
+            <a href={basics.url} target="_blank" >{basics.url}</a> 
           </div>
+          <small> [temporary, while building the main https://solid.garden] </small>
         </div>
       </div>
     </div>
-    <StaticImage
-      src='https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png'
-      width={100}
-      quality={90}
-      alt='alt text'
-    />
+
   </section>
 )
 
