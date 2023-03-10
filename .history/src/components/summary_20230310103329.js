@@ -73,7 +73,7 @@ const Summary = () => (
               <a href='https://solidgarden.tricky.ro/' target='_blank'>
                 playgroundserver
               </a>
-              
+
             </li>
           </ul>
           <br />
