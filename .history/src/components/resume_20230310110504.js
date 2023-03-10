@@ -58,7 +58,7 @@ const Resume = ({ resume }) => {
         <Project projects={projects} />
         <SkillsMain skillsMain={skillsMain} />
         <Skills skills={skills} />
-        {/* <h2>📌  ...and I am also a geological engineer</h2> */}
+        <h2>📌  ...and I am also a geological engineer</h2>
         <Work works={work} />
         <Education educations={education} />
         <Trainings trainings={trainings} />
