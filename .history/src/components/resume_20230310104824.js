@@ -50,14 +50,15 @@ const Resume = ({ resume }) => {
       <Header basics={basics} />
       {/* <TitleSvg /> */}
       <div id='content' className='container'>
-        <Summary />
+        <h2>📌  my coding journey</h2>
+        {/* <Summary /> */}
         <Contact basics={basics} />
         <About basics={basics} />
         <Profiles profiles={basics.profiles || []} />
         <Project projects={projects} />
         <SkillsMain skillsMain={skillsMain} />
         <Skills skills={skills} />
-        <h1></h1>
+        <h2>📌  ...and I am also a geological engineer</h2>
         <Work works={work} />
         <Education educations={education} />
         <Trainings trainings={trainings} />
