@@ -9,7 +9,7 @@ basics:
   url: https://solid.garden
   summary: 
   -  Once a geologist engineer in the hydrocarbon industry, I discovered my love for programming in high school, which I brought to my work as a geologist, where I utilized my analytical mindset to streamline tasks and solve complex problems.
-  - I excelled in automating repetitive tasks and problem-solving through the use of datasets and variables. In 2018, I reignited my passion for programming, creating my own webshop and other websites such as munkaportal.ro, gpoauto.ro, and jointadventure.com. I also joined a project in VBA Excel scripting and ERP system setup and code (Python) for a company.
+  - I excelled in automating repetitive tasks and problem-solving through the use of datasets and variables. In 2018, I reignited my passion for programming, creating my own webshop and other websites such as [munkaportal.ro], [gpoauto.ro](http://gpoauto.ro/), and [jointadventure.com](http://jointadventure.com/). I also joined a project in VBA Excel scripting and ERP system setup and code (Python) for a company.
   - In July 2022, I decided to take a leap of faith and quit my Budapest-based 9-6 job, embarking on a new journey as a freelancer, balancing my passions for geology and programming. From developing Excel VBA add-ins to website design and coding in VB and C#, I continue to expand my skill set while working with a variety of geology-related companies.
   - Through it all, my personal website and blog, solid.garden, will serve as a platform to share my worldview, coding journey, and the progress of building my future home with my fiancé, our cat, Mr. Carrot, and rescued dog, Henna. With a passion for learning and an open mind to new opportunities, I am excited to see where my unique combination of skills will take me next.
 
@@ -26,7 +26,7 @@ basics:
       url: https://github.com/szilarddenes
     - network: LinkedIn
       username: szilárd dénes
-      url: https://www.linkedin.com/in/szilarddenes
+      url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
 work:
   - name: O&GD Development Kft
     location: Budapest, HU
@@ -52,7 +52,7 @@ work:
     url: https://geogold.eu
     startDate: '2015-05'
     endDate: '2015-06'
-    summary: Fieldwork -> VES (Vertical Electric Surveying) study in NW Romania.
+    summary: Field work -> VES (Vertical Electric Surveying) study in NW Romania.
 
   - name: Szekler Resources LTD
     location: Sfântu-Gheorge, RO
@@ -61,7 +61,7 @@ work:
     url: https://szekler-resources.ro/
     startDate: '2014-07'
     endDate: '2014-08'
-    summary: Technical work and support for a micropaleontological study.
+    summary: Technical work and support for a micropaleontologycal study.
 
   - name: SC Geosearch SRL
     location: Cluj-Napoca, RO
@@ -70,7 +70,7 @@ work:
     url: https://geosearch.ro
     startDate: '2014-04'
     endDate: '2014-07'
-    summary: Fieldwork -> geotechnical drilling/surveying.
+    summary: Field work -> geotechnical drilling/surveying.
 volunteer:
   - organization: CoderDojo
     position: Teacher
@@ -103,7 +103,7 @@ education:
 trainings:
   - title: Rose & Associates LLP
     summary: Risk Analysis, Prospect Evaluation and Exploration Economics
-    location: Budapest, Hungary
+    location: Budapest, HU
     startDate: '2019-05-28'
     endDate: '2019-05-29'
     heldBy: Doug Weaver

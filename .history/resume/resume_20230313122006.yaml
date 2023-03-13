@@ -26,7 +26,7 @@ basics:
       url: https://github.com/szilarddenes
     - network: LinkedIn
       username: szilárd dénes
-      url: https://www.linkedin.com/in/szilarddenes
+      url: https://www.linkedin.com/in/szil%C3%A1rd-d%C3%A9nes-11a00371
 work:
   - name: O&GD Development Kft
     location: Budapest, HU
@@ -52,7 +52,7 @@ work:
     url: https://geogold.eu
     startDate: '2015-05'
     endDate: '2015-06'
-    summary: Fieldwork -> VES (Vertical Electric Surveying) study in NW Romania.
+    summary: Field work -> VES (Vertical Electric Surveying) study in NW Romania.
 
   - name: Szekler Resources LTD
     location: Sfântu-Gheorge, RO
@@ -61,7 +61,7 @@ work:
     url: https://szekler-resources.ro/
     startDate: '2014-07'
     endDate: '2014-08'
-    summary: Technical work and support for a micropaleontological study.
+    summary: Technical work and support for a micropaleontologycal study.
 
   - name: SC Geosearch SRL
     location: Cluj-Napoca, RO
@@ -70,7 +70,7 @@ work:
     url: https://geosearch.ro
     startDate: '2014-04'
     endDate: '2014-07'
-    summary: Fieldwork -> geotechnical drilling/surveying.
+    summary: Field work -> geotechnical drilling/surveying.
 volunteer:
   - organization: CoderDojo
     position: Teacher
@@ -103,7 +103,7 @@ education:
 trainings:
   - title: Rose & Associates LLP
     summary: Risk Analysis, Prospect Evaluation and Exploration Economics
-    location: Budapest, Hungary
+    location: Budapest, HU
     startDate: '2019-05-28'
     endDate: '2019-05-29'
     heldBy: Doug Weaver
