@@ -5,14 +5,14 @@ const Work = ({ works }) => (
     <aside className='col-sm-3'>
       <h3>Work</h3>
     </aside>
-    <div className='col-sm-9'>
+     - updating now...
+    {/* <div className='col-sm-9'>
       <div className='row'>
         {works.map((work) => (
           <div className='col-sm-12'>
             <h4 className='strike-through'>
               <span>{work.name}</span>
               <span className='date'>
-                {/* {work.startDate} — {(()=>{ work.endDate ? work.endDate : "present"})} */}
                 {work.startDate} — {!!work.endDate ? work.endDate : `present`}
               </span>
             </h4>
@@ -36,7 +36,7 @@ const Work = ({ works }) => (
           </div>
         ))}
       </div>
-    </div>
+    </div> */}
   </section>
 )
 

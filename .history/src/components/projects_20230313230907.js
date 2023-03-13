@@ -5,7 +5,8 @@ const Project = ({ projects }) => (
     <aside className='col-sm-3'>
       <h3>Projects ongoing</h3>
     </aside>
-    <div className='col-sm-9'>
+    - uopdating
+    {/* <div className='col-sm-9'>
       <div className='row'>
         {projects.map((project) => (
           <div className='col-sm-12 projectCards'>
@@ -37,7 +38,7 @@ const Project = ({ projects }) => (
           </div>
         ))}
       </div>
-    </div>
+    </div> */}
   </section>
 )
 

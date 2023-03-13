@@ -5,19 +5,18 @@ const Work = ({ works }) => (
     <aside className='col-sm-3'>
       <h3>Work</h3>
     </aside>
-    <div className='col-sm-9'>
+    {/* <div className='col-sm-9'>
       <div className='row'>
         {works.map((work) => (
           <div className='col-sm-12'>
             <h4 className='strike-through'>
               <span>{work.name}</span>
               <span className='date'>
-                {/* {work.startDate} — {(()=>{ work.endDate ? work.endDate : "present"})} */}
                 {work.startDate} — {!!work.endDate ? work.endDate : `present`}
               </span>
             </h4>
             <div className='website pull-right'>
-              <a href='{work.url}'>{work.url}</a>
+              <a href={work.url} target="_blank">{work.url}</a>
             </div>
             <div className='position'>{work.position}</div>
             <div className='summary'>
@@ -35,7 +34,7 @@ const Work = ({ works }) => (
             )}
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   </section>
 )
