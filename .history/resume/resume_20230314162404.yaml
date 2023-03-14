@@ -34,7 +34,7 @@ work:
     position: Data Entry Specialist
     url: https://nahelium.com/
     startDate: '2022-11'
-    endDate:
+    endDate: ~
     summary: I specialize in using IHS Kingdom Software to load 2D and 3D seismic surveys, load data, and perform data quality control. I have extensive experience in using IHS Kingdom Software and have developed expertise in data loading and quality control techniques. 
     highlights:
       - loading 2D and 3D seismic surveys into Kingdom software
@@ -43,13 +43,13 @@ work:
       - performing data quality control 
       - converting coordinates from different UTM zones using QGIS
 
-  - name: Geoszféra Kft.
+  - name: GEOSZFÉRA Kft.
     location: Remote
     description: Awesome compression company
     position:  Freelance Developer
     url: http://geoszfera.hu
     startDate: '2023-02'
-    endDate:
+    endDate: ~
     summary: As a Developer at Geoszféra Kft. I am responsible for revisiting Excel VBA Addons created by a former colleague. My role involves reviewing and modifying the code to ensure that it is functional, efficient, and error-free. To help users understand how to use these add-ons, I also write documentation that explains the purpose, functionality, and usage of each tool.
     highlights:
       - I clean up the existing Excel add-ins to remove any unnecessary code, optimize performance, and make them more user-friendly. This involves restructuring the code, renaming variables, and adding comments to make it easier to read and understand.
@@ -62,14 +62,14 @@ work:
     position:  Freelance Developer
     url: 
     startDate: '2023-01'
-    endDate:
+    endDate: ~
     summary: As a web developer at Geohisztor Kft. I design and develop their website from start to finish. My goal is to help Geohisztor Kft. establish a strong online presence and build a brand that resonates with their target audience.
     highlights:
       - logo design in Figma
       - schematic UI/UX design 
       - programming the website in SvelteKit, and hosting and managing the site
 
-  - name: Soler Partners Kft.
+  - name: SOLER Partners Kft.
     location: Remote
     description: Awesome compression company
     position: Freelance Developer

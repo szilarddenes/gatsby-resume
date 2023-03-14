@@ -1,7 +1,7 @@
 ---
 basics:
   name: Szilárd Dénes
-  label: Geologist / Developer
+  label: Geologist / Keen Developer
   imagesd:
     - /src/img/szilarddenes_profile_circle.png
   email: szilard@solid.garden
@@ -28,52 +28,25 @@ basics:
       username: szilárd dénes
       url: https://www.linkedin.com/in/szilarddenes
 work:
-  - name: North American Helium
+  - name: Geohisztor Kft
     location: Remote
     description: Awesome compression company
-    position: Data Entry Specialist
-    url: https://nahelium.com/
-    startDate: '2022-11'
-    endDate:
-    summary: I specialize in using IHS Kingdom Software to load 2D and 3D seismic surveys, load data, and perform data quality control. I have extensive experience in using IHS Kingdom Software and have developed expertise in data loading and quality control techniques. 
+    position:  Developer
+    url: http://shpbv.eu
+    startDate: '2022-04'
+    endDate: '2023-02'
+    summary: I transferred a company's data, projects, and workflows from excel files and folders into the Odoo ERP (Enterprise Resource Planning) system. Besides, I built a VBA-based Excel program that generates documents with a given database and different PDF templates. 
     highlights:
-      - loading 2D and 3D seismic surveys into Kingdom software
-      - loading of 2D and 3D gathers
-      - loading any kind of data 
-      - performing data quality control 
-      - converting coordinates from different UTM zones using QGIS
-
-  - name: Geoszféra Kft.
+      - Email lead integration in the system
+      - Writing workflow automation and data validations in Python
+      - Creating custom reports in Odoo studio, using HTML and CSS
+      - Database build and management
+      - Python scripts to solve various problems in Odoo
+  - name: SOLER Partners Kft.
     location: Remote
     description: Awesome compression company
-    position:  Freelance Developer
-    url: http://geoszfera.hu
-    startDate: '2023-02'
-    endDate:
-    summary: As a Developer at Geoszféra Kft. I am responsible for revisiting Excel VBA Addons created by a former colleague. My role involves reviewing and modifying the code to ensure that it is functional, efficient, and error-free. To help users understand how to use these add-ons, I also write documentation that explains the purpose, functionality, and usage of each tool.
-    highlights:
-      - I clean up the existing Excel add-ins to remove any unnecessary code, optimize performance, and make them more user-friendly. This involves restructuring the code, renaming variables, and adding comments to make it easier to read and understand.
-      - If necessary, I also rewrite the add-ins in a more modern programming language, such as C#.
-      - Throughout my work, I focus on delivering high-quality code and documentation that meets the needs of the end-users. By doing so, I help to ensure that our geotechnical engineering teams have access to the tools they need to do their jobs effectively.
-
-  - name: Geohisztor Kft.
-    location: Remote
-    description: Awesome compression company
-    position:  Freelance Developer
-    url: 
-    startDate: '2023-01'
-    endDate:
-    summary: As a web developer at Geohisztor Kft. I design and develop their website from start to finish. My goal is to help Geohisztor Kft. establish a strong online presence and build a brand that resonates with their target audience.
-    highlights:
-      - logo design in Figma
-      - schematic UI/UX design 
-      - programming the website in SvelteKit, and hosting and managing the site
-
-  - name: Soler Partners Kft.
-    location: Remote
-    description: Awesome compression company
-    position: Freelance Developer
-    url: https://soler.hu
+    position:  Developer
+    url: http://shpbv.eu
     startDate: '2022-04'
     endDate: '2023-02'
     summary: I transferred a company's data, projects, and workflows from excel files and folders into the Odoo ERP (Enterprise Resource Planning) system. Besides, I built a VBA-based Excel program that generates documents with a given database and different PDF templates. 
@@ -325,4 +298,4 @@ projects:
   - name: Personal website & blog
     description: Building my portfolio site, using a headless framework (or Svelte) and 3D animations.
     highlights:
-    url: 
+    url: ''

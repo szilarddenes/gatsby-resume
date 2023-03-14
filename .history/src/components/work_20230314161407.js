@@ -6,7 +6,7 @@ const Work = ({ works }) => (
       <h3>Work</h3>
     </aside>
      {/* - updating now... */}
-    <div className='col-sm-9'>
+    {/* <div className='col-sm-9'>
       <div className='row'>
         {works.map((work) => (
           <div className='col-sm-12'>
@@ -36,7 +36,7 @@ const Work = ({ works }) => (
           </div>
         ))}
       </div>
-    </div>
+    </div> */}
   </section>
 )
 

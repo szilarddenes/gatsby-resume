@@ -43,7 +43,7 @@ work:
       - performing data quality control 
       - converting coordinates from different UTM zones using QGIS
 
-  - name: Geoszféra Kft.
+  - name: Geoszf Kft.
     location: Remote
     description: Awesome compression company
     position:  Freelance Developer
@@ -69,7 +69,7 @@ work:
       - schematic UI/UX design 
       - programming the website in SvelteKit, and hosting and managing the site
 
-  - name: Soler Partners Kft.
+  - name: SOLER Partners Kft.
     location: Remote
     description: Awesome compression company
     position: Freelance Developer

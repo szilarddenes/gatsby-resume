@@ -43,7 +43,7 @@ work:
       - performing data quality control 
       - converting coordinates from different UTM zones using QGIS
 
-  - name: Geoszféra Kft.
+  - name: GEOSZFÉRA Kft.
     location: Remote
     description: Awesome compression company
     position:  Freelance Developer
@@ -69,7 +69,7 @@ work:
       - schematic UI/UX design 
       - programming the website in SvelteKit, and hosting and managing the site
 
-  - name: Soler Partners Kft.
+  - name: SOLER Partners Kft.
     location: Remote
     description: Awesome compression company
     position: Freelance Developer
@@ -314,7 +314,7 @@ projects:
       - Writing workflow automations and data validations in Python
       - Creating custom reports in Odoo studio, using HTML and CSS
       - Database build and management
-    url:
+    
   - name: VBA PDF generator
     description: Built a VBA-based Excel program which generates documents with a given database and different PDF templates. This is capable of generating hundreds of PDFs, thus saving many man-hours. This was my first software sale.
     highlights:

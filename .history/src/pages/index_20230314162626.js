@@ -35,7 +35,7 @@ export const query = graphql`
         startDate(formatString: "MMM, YYYY")
         position
         summary
-        url
+        
       }
       volunteer {
         endDate(formatString: "MMM, YYYY")
@@ -104,7 +104,7 @@ export const query = graphql`
         name
         description
         highlights
-        
+        url
       }
       
     }
