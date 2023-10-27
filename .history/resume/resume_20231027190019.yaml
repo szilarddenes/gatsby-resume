@@ -5,13 +5,14 @@ basics:
   imagesd:
     - /src/img/szilarddenes_profile_circle.png
   email: szilard@solid.garden
-  phone: '- please email me'
+  phone: "- please email me"
   url: https://solid.garden
-  summary:
-    - Once a geologist engineer in the hydrocarbon industry, I discovered my love for programming in high school, which I brought to my work as a geologist, where I utilized my analytical mindset to streamline tasks and solve complex problems.
-    - I excelled in automating repetitive tasks and problem-solving through the use of datasets and variables. In 2018, I reignited my passion for programming, creating my own webshop and other websites such as munkaportal.ro, gpoauto.ro, and jointadventure.com. I also joined a project in VBA Excel scripting and ERP system setup and code (Python) for a company.
-    - In July 2022, I decided to take a leap of faith and quit my Budapest-based 9-6 job, embarking on a new journey as a freelancer, balancing my passions for geology and programming. From developing Excel VBA add-ins to website design and coding in VB and C#, I continue to expand my skill set while working with a variety of geology-related companies.
-    - Through it all, my personal website and blog, solid.garden, will serve as a platform to share my worldview, coding journey, and the progress of building my future home with my fiancé, our cat, Mr. Carrot, and rescued dog, Henna. With a passion for learning and an open mind to new opportunities, I am excited to see where my unique combination of skills will take me next.
+  summary: 
+  -  Once a geologist engineer in the hydrocarbon industry, I discovered my love for programming in high school, which I brought to my work as a geologist, where I utilized my analytical mindset to streamline tasks and solve complex problems.
+  - I excelled in automating repetitive tasks and problem-solving through the use of datasets and variables. In 2018, I reignited my passion for programming, creating my own webshop and other websites such as munkaportal.ro, gpoauto.ro, and jointadventure.com. I also joined a project in VBA Excel scripting and ERP system setup and code (Python) for a company.
+  - In July 2022, I decided to take a leap of faith and quit my Budapest-based 9-6 job, embarking on a new journey as a freelancer, balancing my passions for geology and programming. From developing Excel VBA add-ins to website design and coding in VB and C#, I continue to expand my skill set while working with a variety of geology-related companies.
+  - Through it all, my personal website and blog, solid.garden, will serve as a platform to share my worldview, coding journey, and the progress of building my future home with my fiancé, our cat, Mr. Carrot, and rescued dog, Henna. With a passion for learning and an open mind to new opportunities, I am excited to see where my unique combination of skills will take me next.
+
 
   location:
     address: Budai Nagy Antal utca
@@ -30,20 +31,20 @@ work:
   - name: Sand Hill Petroleum BV
     location: Remote
     description: Awesome compression company
-    position: Exploration Geologist
+    position: Data Entry Specialist
     url: http://www.shpbv.eu
     startDate: '2023-06'
     endDate: '2023-10'
     summary: Played a fundamental role in safeguarding data precision and quality, conducting detailed AVO analysis in IHS Kingdom software, and helping with geological interpretation while managing the project's database effectively. These actions made it easier to evaluate, select the best prospect, and advance to a Peer Review level, ultimately aiding project decisions.
     highlights:
       - Checked and compared data quality carefully and selected data for AVO analysis
-      - Executed AVO analysis on prospects, including Pre-Stack Intercept vs. Gradient and Post-Stack AVO Attribute plots, while establishing a substantial AVO database encompassing both drilled analogs and potential prospects
-      - Conducted thorough comparisons of prospects with one another and against analogs to predict possible fluid types and address geophysical data issues
-      - Provided valuable geological interpretation support, including the creation of cross-sections, isopach maps, and depositional environment maps within the Area of Interest.
-      - Executed detailed horizon and fault mapping at the prospect scale
-      - Offered crucial support in preparing materials for a Prospect Ranking work
-      - Contributed to the preparation of the Peer Review presentation
-      - Managed and oversaw database operations, including data loading and maintenance
+    - Executed AVO analysis on prospects, including Pre-Stack Intercept vs. Gradient and Post-Stack AVO Attribute plots, while establishing a substantial AVO database encompassing both drilled analogs and potential prospects
+    - Conducted thorough comparisons of prospects with one another and against analogs to predict possible fluid types and address geophysical data issues
+    - Provided valuable geological interpretation support, including the creation of cross-sections, isopach maps, and depositional environment maps within the Area of Interest.
+    - Executed detailed horizon and fault mapping at the prospect scale
+    - Offered crucial support in preparing materials for a Prospect Ranking work
+    - Contributed to the preparation of the Peer Review presentation
+    - Managed and oversaw database operations, including data loading and maintenance
 
   - name: Sand Hill Petroleum BV
     location: Remote
@@ -56,7 +57,7 @@ work:
     highlights:
       - cleaning the project by removing non-relevant data (e.g., well data, cultural data, seismic data) outside the AOI
       - ensuring consistent naming conventions for horizons and grids
-      - segmenting 3D and 2D seismic data according to block boundaries
+      - segmenting 3D and 2D seismic data according to block boundaries 
       - organizing data into Collections for each prospect
       - composing comprehensive and searchable documentation within the framework of the data room presentation, emphasizing crucial information
 
@@ -71,7 +72,7 @@ work:
     highlights:
       - cleaning the project by removing non-relevant data (e.g., well data, cultural data, seismic data) outside the AOI
       - ensuring consistent naming conventions for horizons and grids
-      - segmenting 3D and 2D seismic data according to block boundaries
+      - segmenting 3D and 2D seismic data according to block boundaries 
       - organizing data into Collections for each prospect
       - composing comprehensive and searchable documentation within the framework of the data room presentation, emphasizing crucial information
 
@@ -82,18 +83,18 @@ work:
     url: https://nahelium.com
     startDate: '2022-11'
     endDate:
-    summary: I specialize in using IHS Kingdom Software to load 2D and 3D seismic surveys, load data, and perform data quality control. I have extensive experience in using IHS Kingdom Software and have developed expertise in data loading and quality control techniques.
+    summary: I specialize in using IHS Kingdom Software to load 2D and 3D seismic surveys, load data, and perform data quality control. I have extensive experience in using IHS Kingdom Software and have developed expertise in data loading and quality control techniques. 
     highlights:
       - loading 2D and 3D seismic surveys into Kingdom software
       - loading of 2D and 3D gathers
-      - loading any kind of data
-      - performing data quality control
+      - loading any kind of data 
+      - performing data quality control 
       - converting coordinates from different UTM zones using QGIS
 
   - name: Geoszféra Kft.
     location: Remote
     description: Awesome compression company
-    position: Freelance Developer
+    position:  Freelance Developer
     url: http://geoszfera.hu
     startDate: '2023-02'
     endDate: '2023-07'
@@ -106,14 +107,14 @@ work:
   - name: Geohisztor Kft.
     location: Remote
     description: Awesome compression company
-    position: Freelance Developer
-    url:
+    position:  Freelance Developer
+    url: 
     startDate: '2023-01'
     endDate:
     summary: As a web developer at Geohisztor Kft. I design and develop their website from start to finish. My goal is to help Geohisztor Kft. establish a strong online presence and build a brand that resonates with their target audience.
     highlights:
       - logo design in Figma
-      - schematic UI/UX design
+      - schematic UI/UX design 
       - programming the website in SvelteKit, and hosting and managing the site
 
   - name: Soler Partners Kft.
@@ -123,7 +124,7 @@ work:
     url: https://soler.hu
     startDate: '2022-04'
     endDate: '2023-02'
-    summary: I transferred a company's data, projects, and workflows from excel files and folders into the Odoo ERP (Enterprise Resource Planning) system. Besides, I built a VBA-based Excel program that generates documents with a given database and different PDF templates.
+    summary: I transferred a company's data, projects, and workflows from excel files and folders into the Odoo ERP (Enterprise Resource Planning) system. Besides, I built a VBA-based Excel program that generates documents with a given database and different PDF templates. 
     highlights:
       - Email lead integration in the system
       - Writing workflow automation and data validations in Python
@@ -372,4 +373,4 @@ projects:
   - name: Personal website & blog
     description: Building my portfolio site, using a headless framework (or Svelte) and 3D animations.
     highlights:
-    url:
+    url: 
