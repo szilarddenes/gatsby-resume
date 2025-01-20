@@ -17,7 +17,6 @@ import Languages from './languages'
 import Interests from './interests'
 import References from './references'
 import ProfileImage from './profileimage'
-import workedWith from './workedwith'
 
 import TitleSvg from '../img/svg/sdicon.svg'
 
@@ -68,7 +67,6 @@ const Resume = ({ resume }) => {
         <Languages languages={languages} />
         <Interests interests={interests} />
         <References references={references} />
-        {/* <workedWith/> */}
       </div>
     </React.Fragment>
   )
