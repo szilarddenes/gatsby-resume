@@ -29,35 +29,6 @@ basics:
 work:
   - name: Sand Hill Petroleum BV
     location: Remote
-    position: Exploration Geologist
-    url: http://www.shpbv.eu
-    startDate: 2024-04
-    endDate: 2024-12
-    description: A petroleum exploration firm focused on seismic interpretation and systematic prospect evaluation for hydrocarbon ranking.
-    summary: Undertook a comprehensive interpretation of a new 500 km² 3D seismic dataset, delivering risk analysis, ranking, and peer review materials for multiple prospects.
-    highlights:
-      - Helped the systematic interpretation of a 500 km² 3D seismic dataset.
-      - Performed quality control on seismic and gather data for accuracy.
-      - Conducted AVO analysis in Paleoscan to evaluate hydrocarbon potential.
-      - Prepared peer review materials, identifying and analyzing key prospect risks.
-      - Evaluated and ranked 12-15 prospects based on hydrocarbon phase and volume.
-      - Delivered detailed volume calculations for prospect assessment.
-
-  - name: O&GD Central Ltd.
-    location: Remote
-    description: Awesome compression company
-    position: Exploration Geologist
-    url: http://www.shpbv.eu
-    startDate: '2023-10'
-    endDate: '2023-12'
-    summary: Provided geological expertise and support in AVO analysis for evaluating multiple prospects.
-    highlights:
-      - Conducted AVO analysis on several prospects to assess hydrocarbon potential.
-      - Collaborated with interpreters to provide geological insights and support.
-      - Enhanced the geological understanding of prospects for decision-making.
-
-  - name: Sand Hill Petroleum BV
-    location: Remote
     description: Awesome compression company
     position: Exploration Geologist
     url: http://www.shpbv.eu
