@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-resume",
   plugins: [
     `gatsby-transformer-yaml`,
     {
