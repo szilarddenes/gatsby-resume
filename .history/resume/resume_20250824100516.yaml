@@ -9,7 +9,7 @@ basics:
   url: https://solid.garden
   summary:
     - Geologist turned developer with 10+ years in the hydrocarbon industry, combining analytical expertise with programming skills to solve complex problems and automate workflows.
-    - "Since 2022, freelancing at the intersection of geology and technology: developing software solutions for geological companies, building data analysis tools, and creating web applications. Currently establishing a geo-AI company to revolutionize geological data interpretation with artificial intelligence."
+    - Since 2022, freelancing at the intersection of geology and technology: developing software solutions for geological companies, building data analysis tools, and creating web applications. Currently establishing a geo-AI company to revolutionize geological data interpretation with artificial intelligence."
     - Also pursuing a personal project of building our own home on an off-grid area in the forest, applying project management and problem-solving skills gained from years of technical work.
 
   location:
@@ -131,7 +131,7 @@ work:
     position: Data Entry Specialist
     url: https://nahelium.com
     startDate: '2022-11'
-    endDate: '2024-04'
+    endDate:
     summary: 'Periodical freelance contribution: I specialize in using IHS Kingdom Software to load 2D and 3D seismic surveys, load data, and perform data quality control. I have extensive experience in using IHS Kingdom Software and have developed expertise in data loading and quality control techniques.'
     highlights:
       - loading 2D and 3D seismic surveys into Kingdom software
@@ -354,18 +354,12 @@ skillsMain:
       - C# - language choice for specialization
 
 skills:
-  - name: Geology Skills
-    level: high level
+  - name: Web Development
+    level: worked with
     keywords:
-      - Seismic interpretation (2D-3D)
-      - AVO analysis
-      - Well Ties
-      - Geo-Modelling with complex multiple grids
-      - Petroleum System Analysis-basic migration  models
-      - Addressing the main risk elements  (source/seal/pathway/trap)
-      - Data integration
-      - Database building
-
+      - Linux
+      - Nginx
+      - AWS
   - name: Software Skills
     level: high level
     keywords:
@@ -384,12 +378,17 @@ skills:
       - Schlumberger Petrel
       - REP – Resource Evaluation Program
 
-  - name: Web Development
-    level: worked with
+  - name: Geology Skills
+    level: high level
     keywords:
-      - Linux
-      - Nginx
-      - AWS
+      - Seismic interpretation (2D-3D)
+      - AVO analysis
+      - Well Ties
+      - Geo-Modelling with complex multiple grids
+      - Petroleum System Analysis-basic migration  models
+      - Addressing the main risk elements  (source/seal/pathway/trap)
+      - Data integration
+      - Database building
 
 languages:
   - language: Hungarian

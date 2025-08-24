@@ -22,20 +22,22 @@ const SkillsMain = ({ skillsMain }) => (
                 <li>{keyword}</li>
               ))}
             </ul>
-            <div id='anim'>
-              <div title='html' className='anim anim1 colorRed'>
-                html
+            {skill.name === 'Web Development' && (
+              <div id='anim'>
+                <div title='html' className='anim anim1 colorRed'>
+                  html
+                </div>
+                <div title='cs' className='anim anim2 colorGreen'>
+                  css
+                </div>
+                <div title='javascript' className='anim anim3 colorTeal'>
+                  javascript
+                </div>
+                <div title='C#' className='anim anim1 colorYellow'>
+                  C#
+                </div>
               </div>
-              <div title='cs' className='anim anim2 colorGreen'>
-                css
-              </div>
-              <div title='javascript' className='anim anim3 colorTeal'>
-                javascript
-              </div>
-              <div title='C#' className='anim anim1 colorYellow'>
-                C#
-              </div>
-            </div>
+            )}
           </div>
         ))}
       </div>

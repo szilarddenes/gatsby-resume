@@ -9,7 +9,7 @@ const Work = ({ works }) => (
     <div className='col-sm-9'>
       <div className='row'>
         {works.map((work) => (
-          <div className='col-sm-12'>
+          <div className='col-sm-12' data-job={work.name}>
             <h4 className='strike-through'>
               <span>{work.name}</span>
               <span className='date'>

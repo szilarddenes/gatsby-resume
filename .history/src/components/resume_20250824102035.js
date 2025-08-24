@@ -18,7 +18,6 @@ import Interests from './interests'
 import References from './references'
 import ProfileImage from './profileimage'
 import Certifications from './certifications'
-import Timeline from './timeline'
 import '../styles/certifications.css'
 
 import TitleSvg from '../img/svg/sdicon.svg'
@@ -64,7 +63,6 @@ const Resume = ({ resume }) => {
 
       <Header basics={basics} />
       {/* <TitleSvg /> */}
-      <Timeline resume={resume} />
       <div id='content' className='container'>
         {/* <h2>📌  my coding journey</h2> */}
         {/* <Summary /> */}
@@ -72,8 +70,8 @@ const Resume = ({ resume }) => {
         <About basics={basics} />
         <Profiles profiles={basics.profiles || []} />
         {/* <Project projects={projects} /> */}
-        <SkillsMain skillsMain={skillsMain} />
         <Skills skills={skills} />
+        <SkillsMain skillsMain={skillsMain} />
         {certifications && certifications.length > 0 && (
           <Certifications certifications={certifications} />
         )}
