@@ -8,49 +8,48 @@ const Timeline = ({ resume }) => {
   
   
   
-  const workItems = work.map((job, index) => {
-    const parseDateInfo = (dateStr) => {
-      if (!dateStr || dateStr === null || dateStr === '') return { year: null, display: null }
-      
-      // Handle formatted dates from GraphQL (e.g., "Nov, 2024", "Apr, 2023")
-      if (typeof dateStr === 'string' && dateStr.includes(',')) {
-        const parts = dateStr.split(',')
-        if (parts.length >= 2) {
-          const year = parseInt(parts[1].trim())
-          const month = parts[0].trim()
-          if (!isNaN(year)) {
-            return { year, display: `${month} ${year}` }
-          }
+  const parseDateInfo = (dateStr) => {
+    if (!dateStr || dateStr === null || dateStr === '') return { year: null, display: null }
+    
+    // Handle formatted dates from GraphQL (e.g., "Nov, 2024", "Apr, 2023")
+    if (typeof dateStr === 'string' && dateStr.includes(',')) {
+      const parts = dateStr.split(',')
+      if (parts.length >= 2) {
+        const year = parseInt(parts[1].trim())
+        const month = parts[0].trim()
+        if (!isNaN(year)) {
+          return { year, display: `${month} ${year}` }
         }
       }
-      
-      // Handle YYYY-MM format (direct from YAML, fallback)
-      if (typeof dateStr === 'string' && dateStr.includes('-')) {
-        const parts = dateStr.split('-')
-        if (parts.length >= 2) {
-          const year = parseInt(parts[0])
-          const month = parseInt(parts[1])
-          if (!isNaN(year) && !isNaN(month)) {
-            const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
-                              'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-            const monthName = monthNames[month - 1]
-            return { year, display: `${monthName} ${year}` }
-          }
-        }
-      }
-      
-      // Try direct year parsing
-      const year = parseInt(dateStr)
-      if (!isNaN(year)) {
-        return { year, display: `${year}` }
-      }
-      
-      return { year: null, display: null }
     }
     
+    // Handle YYYY-MM format (direct from YAML, fallback)
+    if (typeof dateStr === 'string' && dateStr.includes('-')) {
+      const parts = dateStr.split('-')
+      if (parts.length >= 2) {
+        const year = parseInt(parts[0])
+        const month = parseInt(parts[1])
+        if (!isNaN(year) && !isNaN(month)) {
+          const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+                            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+          const monthName = monthNames[month - 1]
+          return { year, display: `${monthName} ${year}` }
+        }
+      }
+    }
+    
+    // Try direct year parsing
+    const year = parseInt(dateStr)
+    if (!isNaN(year)) {
+      return { year, display: `${year}` }
+    }
+    
+    return { year: null, display: null }
+  }
+
+  const workItems = work.map((job, index) => {
     const startDateInfo = parseDateInfo(job.startDate)
     const endDateInfo = parseDateInfo(job.endDate)
-    
     
     return {
       name: job.name,
@@ -61,21 +60,58 @@ const Timeline = ({ resume }) => {
       description: job.summary,
       order: index,
       startYear: startDateInfo.year,
-      endYear: endDateInfo.year || 'Present',
+      endYear: endDateInfo.year,
       startDisplay: startDateInfo.display,
       endDisplay: endDateInfo.display || 'Present',
       sortDate: new Date(startDateInfo.year || new Date().getFullYear(), 0, 1)
     }
   }).sort((a, b) => b.sortDate - a.sortDate)
 
-  const timelineItems = workItems
+  // Group jobs by year and create timeline structure
+  const yearGroups = {}
+  const currentYear = new Date().getFullYear()
+  
+  workItems.forEach(job => {
+    const year = job.startYear || currentYear
+    if (!yearGroups[year]) {
+      yearGroups[year] = []
+    }
+    yearGroups[year].push(job)
+  })
+  
+  // Create timeline items with years and events
+  const timelineYears = Object.keys(yearGroups)
+    .map(year => parseInt(year))
+    .sort((a, b) => b - a) // Most recent first
+  
+  const timelineItems = timelineYears.map(year => ({
+    year,
+    jobs: yearGroups[year],
+    isYear: true
+  }))
+
+  // Add individual job markers
+  const allTimelineItems = []
+  timelineItems.forEach(yearItem => {
+    // Add year marker
+    allTimelineItems.push(yearItem)
+    // Add job markers for this year
+    yearItem.jobs.forEach((job, index) => {
+      allTimelineItems.push({
+        ...job,
+        isJob: true,
+        yearGroup: yearItem.year,
+        jobIndex: index
+      })
+    })
+  })
 
   useEffect(() => {
     const timeline = timelineRef.current
     if (!timeline) return
 
     const handleScroll = () => {
-      const items = timeline.querySelectorAll('.timeline-item')
+      const items = timeline.querySelectorAll('.timeline-job-marker, .timeline-year-marker')
       const scrollLeft = timeline.scrollLeft
       const maxScroll = timeline.scrollWidth - timeline.clientWidth
       const progress = maxScroll > 0 ? scrollLeft / maxScroll : 0
@@ -153,34 +189,49 @@ const Timeline = ({ resume }) => {
         
         <div className="timeline-wrapper" ref={timelineRef}>
         <div className="timeline-track">
-          {timelineItems.map((item, index) => (
-            <div 
-              key={`work-${index}`}
-              className={`timeline-item ${index % 2 === 0 ? 'top' : 'bottom'}`}
-              onClick={() => scrollToJob(item.name)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault()
-                  scrollToJob(item.name)
-                }
-              }}
-              tabIndex={0}
-              role="button"
-              aria-label={`View details for ${item.name} - ${item.position} (${item.startDisplay} - ${item.endDisplay})`}
-            >
-              <div className="timeline-content">
-                <div className="timeline-title">{item.name}</div>
-                <div className="timeline-subtitle">{item.position}</div>
-                {(item.startDisplay || item.endDisplay) && (
-                  <div className="timeline-years">
-                    {item.startDisplay ? item.startDisplay : ''}{item.startDisplay && ' - '}{item.endDisplay || ''}
+          {allTimelineItems.map((item, index) => {
+            if (item.isYear) {
+              // Render year marker
+              return (
+                <div 
+                  key={`year-${item.year}`}
+                  className="timeline-year-marker"
+                >
+                  <div className="timeline-year-circle"></div>
+                  <span className="timeline-year-text">{item.year}</span>
+                </div>
+              )
+            } else if (item.isJob) {
+              // Render job marker
+              return (
+                <div 
+                  key={`job-${item.yearGroup}-${item.jobIndex}`}
+                  className={`timeline-job-marker ${item.jobIndex % 2 === 0 ? 'top' : 'bottom'}`}
+                  onClick={() => scrollToJob(item.name)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      scrollToJob(item.name)
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`View details for ${item.name} - ${item.position} (${item.startDisplay} - ${item.endDisplay})`}
+                >
+                  <div className="timeline-job-content">
+                    <div className="timeline-job-title">{item.name}</div>
+                    <div className="timeline-job-position">{item.position}</div>
+                    <div className="timeline-job-duration">
+                      {item.startDisplay}{item.startDisplay && item.endDisplay && ' - '}{item.endDisplay}
+                    </div>
                   </div>
-                )}
-              </div>
-              <div className="timeline-connector"></div>
-              <div className="timeline-dot"></div>
-            </div>
-          ))}
+                  <div className="timeline-job-connector"></div>
+                  <div className="timeline-job-dot"></div>
+                </div>
+              )
+            }
+            return null
+          })}
         </div>
         </div>
         
