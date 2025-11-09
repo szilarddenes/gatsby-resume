@@ -1,5 +1,5 @@
 .timeline-container {
-  margin: 30px auto 50px auto;
+  margin: 60px auto 50px auto;
   padding: 0 20px;
   max-width: 1200px;
 }
@@ -7,9 +7,21 @@
 .timeline-container h2 {
   color: var(--yellow);
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 1.8rem;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.timeline-container h2::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: var(--yellow);
+  margin: 15px auto 0;
+  border-radius: 2px;
 }
 
 .timeline-section {

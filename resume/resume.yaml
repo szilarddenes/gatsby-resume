@@ -8,8 +8,8 @@ basics:
   phone: '- please email me'
   url: https://solid.garden
   summary:
-    - Geologist turned developer with 10+ years in the hydrocarbon industry, combining analytical expertise with programming skills to solve complex problems and automate workflows.
-    - "Since 2022, freelancing at the intersection of geology and technology: developing software solutions for geological companies, building data analysis tools, and creating web applications. Currently establishing a geo-AI company to revolutionize geological data interpretation with artificial intelligence."
+    - Geologist with 10+ years in the hydrocarbon industry, combining analytical expertise with programming skills to solve complex problems and automate workflows.
+    - "Since 2022, freelancing remotely in hydrocarbon exploration and analysis, providing geological consulting services to petroleum companies. As a side project, developing AI-powered tools to help geoscientists explore, investigate, and manage their data more efficiently."
     - Also pursuing a personal project of building our own home on an off-grid area in the forest, applying project management and problem-solving skills gained from years of technical work.
 
   location:
@@ -45,7 +45,7 @@ work:
     startDate: '2024-11'
     endDate:
     description:
-    summary: Periodic freelance contributions to the company - providing specialized support for growing initiatives.
+    summary: Periodic freelance contributions - providing specialized support for growing initiatives. Building a geological database from seismic and well data and performing semi-regional interpretation work.
     highlights:
 
   - name: Sand Hill Petroleum BV
@@ -339,57 +339,51 @@ publications:
       data.
 
 skillsMain:
-  - name: Web Development
-    level: in daily use
-    keywords:
-      - Gatsby JS
-      - Wordpress
-      - HTML
-      - CSS
-      - Javascript
-      - VBA
-      - GitHub
-      - cPanel
-      - Figma
-      - C# - language choice for specialization
-
-skills:
   - name: Geology Skills
-    level: high level
+    level: High level expertise
     keywords:
       - Seismic interpretation (2D-3D)
       - AVO analysis
       - Well Ties
       - Geo-Modelling with complex multiple grids
-      - Petroleum System Analysis-basic migration  models
-      - Addressing the main risk elements  (source/seal/pathway/trap)
+      - Petroleum System Analysis-basic migration models
+      - Addressing the main risk elements (source/seal/pathway/trap)
       - Data integration
       - Database building
 
-  - name: Software Skills
-    level: high level
-    keywords:
-      - IHS Kingdom
-      - Zetaware - Trinity 3D, Genesis PSA tools
-      - Schlumberger Petromod
-      - MS Office Apps - Excel, Access, Power Point
-      - ArcGIS
-      - QGIS
+  - name: Geoscience Software
+    level: Primary expertise
+    software:
+      - name: IHS Kingdom
+        experience: 10+ years
+        description: Extensive experience in basic interpretation workflows including time-depth conversions, synthetic well ties, and volume calculations. Proficient in professional data loading and QC procedures, well data management, and attribute calculations. Conducted AVO analysis on Pre-Stack data and generated prospects based on analogs from the same dataset, ensuring context-driven interpretations.
 
-  - name: Software Skills
-    level: project based work
-    keywords:
-      - Migri – HC migration modelling
-      - AutoCad
-      - Schlumberger Petrel
-      - REP – Resource Evaluation Program
+      - name: PaleoScan
+        experience: Advanced workflows (2024)
+        description: Developed advanced skillset during the interpretation of a 500 km² Romanian 3D seismic dataset. Created horizon stacks and DRS surfaces to investigate geomorphology through actual interpreted horizons rather than just time slices. Applied spectral decomposition with RGB blending to delineate geological features (channels, lobes) and assess depositional environments. Performed alternative AVO analysis using crossplot toolsets to compare gas/oil analogues with prospects across multiple seismic attributes.
 
-  - name: Web Development
-    level: worked with
-    keywords:
-      - Linux
-      - Nginx
-      - AWS
+      - name: ZetaWare PSA Toolset
+        experience: Basin and prospect scale
+        description: Used 1D modeling tool and hotspot data analysis for regional basin-scaled overviews on fluid types and temperature models. Applied 3D package to visualize petroleum system models and fluid distribution in relation to temperatures and horizons. Created hydrocarbon migration risk maps for both local prospect-scale and regional-scale interpretations, including major projects in the Derecske trough and Romanian EX-1 and EX-5 areas.
+
+      - name: Petromod & Migris
+        experience: Project-based
+        description: Applied Petromod 1D modeling tool for dissertation work. Collaborated with Migris group from Norway using academic license to create hydrocarbon migration models for the Jászság Basin, developing expertise in modeling possible hydrocarbon migration pathways.
+
+      - name: QGIS
+        experience: 2+ years database management
+        description: Served as responsible person for GIS database management at OGD and SHPR companies. Produced professional maps using developed template systems and maintained SQL databases with regular updates. Performed standard GIS tasks including measuring, comparing, visualizing geological features, and coordinate conversions between different UTM zones.
+
+  - name: Web Development & Programming
+    level: Secondary skills
+    description: Enthusiastic about leveraging code to solve complex problems and streamline workflows across diverse domains.
+    highlights:
+      - Passionate about continuous learning and adapting to new technologies and programming paradigms
+      - Automate geological workflows and build specialized databases for efficient data management
+      - Develop custom websites and web applications for clients across various industries
+      - Create and enhance business systems including CRM solutions, ERP integrations, and workflow automation tools
+
+skills:
 
 languages:
   - language: Hungarian

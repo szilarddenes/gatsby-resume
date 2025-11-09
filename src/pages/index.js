@@ -85,14 +85,16 @@ export const query = graphql`
         url
       }
       skillsMain {
-        keywords
         level
         name
-      }
-      skills {
         keywords
-        level
-        name
+        description
+        highlights
+        software {
+          name
+          experience
+          description
+        }
       }
       languages {
         fluency

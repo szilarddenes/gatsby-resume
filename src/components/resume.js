@@ -11,7 +11,6 @@ import Education from './education'
 import Trainings from './trainings'
 import Awards from './awards'
 import Publications from './publications'
-import Skills from './skills'
 import SkillsMain from './skillsMain'
 import Languages from './languages'
 import Interests from './interests'
@@ -36,7 +35,6 @@ const Resume = ({ resume }) => {
     awards,
     trainings,
     publications,
-    skills,
     skillsMain,
     languages,
     interests,
@@ -73,7 +71,6 @@ const Resume = ({ resume }) => {
         <Profiles profiles={basics.profiles || []} />
         {/* <Project projects={projects} /> */}
         <SkillsMain skillsMain={skillsMain} />
-        <Skills skills={skills} />
         {certifications && certifications.length > 0 && (
           <Certifications certifications={certifications} />
         )}
