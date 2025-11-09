@@ -82,33 +82,16 @@ work:
     description: Awesome compression company
     position: Exploration Geologist
     url: http://www.shpbv.eu
-    startDate: '2023-06'
-    endDate: '2023-10'
-    summary: Played a fundamental role in safeguarding data precision and quality, conducting detailed AVO analysis in IHS Kingdom software, and helping with geological interpretation while managing the project's database effectively. These actions made it easier to evaluate, select the best prospect, and advance to a Peer Review level, ultimately aiding project decisions.
-    highlights:
-      - Checked and compared data quality carefully and selected data for AVO analysis
-      - Executed AVO analysis on prospects, including Pre-Stack Intercept vs. Gradient and Post-Stack AVO Attribute plots, while establishing a substantial AVO database encompassing both drilled analogs and potential prospects
-      - Conducted thorough comparisons of prospects with one another and against analogs to predict possible fluid types and address geophysical data issues
-      - Provided valuable geological interpretation support, including the creation of cross-sections, isopach maps, and depositional environment maps within the Area of Interest.
-      - Executed detailed horizon and fault mapping at the prospect scale
-      - Offered crucial support in preparing materials for a Prospect Ranking work
-      - Contributed to the preparation of the Peer Review presentation
-      - Managed and oversaw database operations, including data loading and maintenance
-
-  - name: Sand Hill Petroleum BV
-    location: Remote
-    description: Awesome compression company
-    position: Data Entry Specialist
-    url: http://www.shpbv.eu
     startDate: '2023-05'
-    endDate: '2023-06'
-    summary: Similar to the previous project, I worked on an IHS Kingdom project designed for data room usage, involving efficient and technical handling of datasets and software.
+    endDate: '2023-10'
+    summary: Managed data quality, AVO analysis, and geological interpretation for prospect evaluation and Peer Review preparation.
     highlights:
-      - cleaning the project by removing non-relevant data (e.g., well data, cultural data, seismic data) outside the AOI
-      - ensuring consistent naming conventions for horizons and grids
-      - segmenting 3D and 2D seismic data according to block boundaries
-      - organizing data into Collections for each prospect
-      - composing comprehensive and searchable documentation within the framework of the data room presentation, emphasizing crucial information
+      - Cleaned and organized IHS Kingdom project data with consistent naming conventions
+      - Executed AVO analysis on prospects including Pre-Stack and Post-Stack analysis
+      - Conducted prospect comparisons with analogs to predict fluid types
+      - Provided geological interpretation support including cross-sections and isopach maps
+      - Executed detailed horizon and fault mapping at prospect scale
+      - Contributed to Prospect Ranking and Peer Review preparation
 
   - name: O&GD Central Ltd.
     location: Remote
@@ -359,7 +342,7 @@ skillsMain:
         description: Extensive experience in basic interpretation workflows including time-depth conversions, synthetic well ties, and volume calculations. Proficient in professional data loading and QC procedures, well data management, and attribute calculations. Conducted AVO analysis on Pre-Stack data and generated prospects based on analogs from the same dataset, ensuring context-driven interpretations.
 
       - name: PaleoScan
-        experience: Advanced workflows (2024)
+        experience: Advanced workflows
         description: Developed advanced skillset during the interpretation of a 500 km² Romanian 3D seismic dataset. Created horizon stacks and DRS surfaces to investigate geomorphology through actual interpreted horizons rather than just time slices. Applied spectral decomposition with RGB blending to delineate geological features (channels, lobes) and assess depositional environments. Performed alternative AVO analysis using crossplot toolsets to compare gas/oil analogues with prospects across multiple seismic attributes.
 
       - name: ZetaWare PSA Toolset
