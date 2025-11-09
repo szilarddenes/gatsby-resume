@@ -7,8 +7,8 @@ const References = ({ references }) => (
 		</aside>
 		<div className="col-sm-9">
 			<div className="row">
-				{references.map(reference => (
-					<div className="col-sm-12">
+				{references.map((reference, index) => (
+					<div key={index} className="col-sm-12">
 						<blockquote className="reference">
 							<p>{reference.reference}</p>
 							<p className="name">

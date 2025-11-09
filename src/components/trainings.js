@@ -7,8 +7,8 @@ const Trainings = ({ trainings }) => (
     </aside>
     <div className='col-sm-9'>
       <div className='row'>
-        {trainings.map((training) => (
-          <div className='col-sm-12'>
+        {trainings.map((training, index) => (
+          <div key={index} className='col-sm-12'>
             <h4 className='strike-through'>
               <span>{training.title}</span>
               <span className='date'>

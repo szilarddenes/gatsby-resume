@@ -7,8 +7,8 @@ const Languages = ({ languages }) => (
 		</aside>
 		<div className="col-sm-9">
       <div className="row">
-      {languages.map(language => (
-        <div className="col-sm-6">
+      {languages.map((language, index) => (
+        <div key={index} className="col-sm-6">
           <div className="language">
             <strong>{language.language}</strong>
           </div>

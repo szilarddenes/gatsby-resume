@@ -9,8 +9,8 @@ const Education = ({ educations }) => (
     </aside>
     <div className='col-sm-9'>
       <div className='row'>
-        {educations.map((education) => (
-          <div className='col-sm-12'>
+        {educations.map((education, index) => (
+          <div key={index} className='col-sm-12'>
             <h4 className='strike-through'>
               <span>{education.institution}</span>
               <span className='date'>

@@ -7,8 +7,8 @@ const Profiles = ({ profiles }) => (
     </aside>
     <div className='col-sm-9'>
       <div className='row'>
-        {profiles.map((profile) => (
-          <div className='col-sm-6'>
+        {profiles.map((profile, index) => (
+          <div key={index} className='col-sm-6'>
             <strong className='network'>{profile.network}</strong>
             {profile.username && (
               <div className='username'>
