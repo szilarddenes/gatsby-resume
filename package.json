@@ -10,6 +10,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^4.3.1",
     "bootstrap": "4.x",
     "gatsby": "^4.16.0",
     "gatsby-plugin-image": "^2.16.1",
@@ -21,15 +22,19 @@
     "gatsby-source-filesystem": "^4.16.0",
     "gatsby-transformer-sharp": "^4.16.0",
     "gatsby-transformer-yaml": "^4.16.0",
+    "puppeteer": "^24.29.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "yaml": "^2.8.1"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "prettier": "^2.7.0"
   },
   "resolutions": {
-    "yoga-layout-prebuilt": "1.10.0"
+    "yoga-layout-prebuilt": "1.10.0",
+    "lmdb": "2.8.5",
+    "msgpackr": "1.10.1"
   }
 }
