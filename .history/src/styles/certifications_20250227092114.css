@@ -1,0 +1,167 @@
+.cert-thumbnail-container {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 0;
+  border: 2px solid #fcc419;
+  background: #12141a;
+}
+
+.zoom-checkbox {
+  display: none;
+}
+
+.zoom-label {
+  cursor: pointer;
+  display: block;
+  margin: 0;
+}
+
+.cert-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.cert-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cert-overlay span {
+  color: white;
+  font-size: 0.9rem;
+  padding: 8px;
+  background: rgba(0,0,0,0.7);
+}
+
+.zoom-label:hover .cert-overlay {
+  opacity: 1;
+}
+
+.cert-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoom-checkbox:checked ~ .cert-modal {
+  display: flex;
+}
+
+.cert-modal-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+/* Close button */
+.cert-modal::before {
+  display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .cert-thumbnail-container {
+    border-width: 0;
+  }
+  
+  .cert-thumbnail {
+    max-width: 100%;
+  }
+  
+  .cert-overlay span {
+    font-size: 0.8rem;
+  }
+}
+
+/* Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.cert-modal {
+  animation: modalFadeIn 0.3s ease;
+}
+
+/* Add this at the top of your certifications.css file */
+.cert-modal-image .gatsby-image-wrapper {
+  border-radius: 0 !important;
+}
+
+.no-border-radiusP{
+  border-radius: 0 !important;
+} 
+
+/* .gatsby-image-wrapper img{
+  border-radius: 0 !important;
+
+} */
+
+/* Target specifically the certificate images */
+.cert-thumbnail-container .gatsby-image-wrapper,
+.cert-thumbnail-container .gatsby-image-wrapper img,
+.cert-modal .gatsby-image-wrapper,
+.cert-modal .gatsby-image-wrapper img {
+  border-radius: 0 !important;
+}
+
+/* Override any other potential border-radius styles */
+.cert-thumbnail.no-border-radius,
+.cert-thumbnail.no-border-radius img,
+.cert-modal-image.no-border-radius,
+.cert-modal-image.no-border-radius img {
+  border-radius: 0 !important;
+}
+
+/* Target the specific gatsby wrapper for these images */
+[data-gatsby-image-wrapper].gatsby-image-wrapper.cert-thumbnail,
+[data-gatsby-image-wrapper].gatsby-image-wrapper.cert-modal-image {
+  border-radius: 0 !important;
+}
+
+/* Style the close button label */
+.cert-modal-close {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+/* Add the × symbol to the label */
+.cert-modal-close::before {
+  content: '×';
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: #fcc419;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1001;
+}

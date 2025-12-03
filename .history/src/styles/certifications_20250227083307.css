@@ -1,0 +1,131 @@
+.cert-thumbnail-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: transform 0.3s ease;
+  border: 2px solid #fcc419;
+  background: #12141a;
+}
+
+.cert-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  object-fit: contain; /* This ensures the image maintains its aspect ratio */
+}
+
+.cert-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cert-overlay span {
+  color: white;
+  font-size: 0.9rem;
+  padding: 8px;
+  background: rgba(0,0,0,0.7);
+}
+
+.cert-thumbnail-container:hover {
+  transform: scale(1.02);
+}
+
+.cert-thumbnail-container:hover .cert-overlay {
+  opacity: 1;
+}
+
+.cert-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  touch-action: none; /* Prevents scrolling on mobile */
+}
+
+.cert-modal {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background: #12141a;
+  border: 2px solid #fcc419;
+  padding: 0; /* Remove padding to ensure no white space */
+}
+
+.cert-modal-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .cert-thumbnail {
+    max-width: 100%;
+  }
+
+  .cert-modal {
+    margin: 0;
+    max-height: 90vh;
+  }
+
+  .cert-overlay span {
+    font-size: 0.8rem;
+  }
+}
+
+/* Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.cert-modal {
+  animation: modalFadeIn 0.3s ease;
+}
+
+/* Add close button for better UX */
+.cert-modal::after {
+  content: '×';
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: #fcc419;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Add this at the top of your certifications.css file */
+.cert-thumbnail-container .gatsby-image-wrapper {
+  border-radius: 0 !important;
+}
+
+.cert-modal .gatsby-image-wrapper {
+  border-radius: 0 !important;
+} 

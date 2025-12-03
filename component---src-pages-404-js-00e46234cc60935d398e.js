@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkresume_with_gatsby=self.webpackChunkresume_with_gatsby||[]).push([[125],{3331:function(e,t,n){n.r(t);var u=n(6540);t.default=()=>u.createElement(u.Fragment,null,u.createElement("h1",null,"Page not found"))}}]);
+//# sourceMappingURL=component---src-pages-404-js-00e46234cc60935d398e.js.map
